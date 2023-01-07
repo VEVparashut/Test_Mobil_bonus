@@ -5,14 +5,14 @@ public class Main {
         int refill = 1100;
         int bonus;
 
-        if (refill >=1000) {
+        if (refill >= 1000) {
             bonus = refill / 100;
         } else {
             bonus = 0;
         }
-        int balance_new = balance + refill + bonus;
+        int balanceNew = balance + refill + bonus;
 
         System.out.println("Бонус = " + bonus);
-        System.out.println("Итоговый баланс = " + balance_new + " рублей");
+        System.out.println("Итоговый баланс = " + balanceNew + " рублей");
     }
 }
